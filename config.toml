@@ -41,7 +41,7 @@ theme = "hero-tejado"
 
 [[menu.main]]
     name = "Rutas en bici"
-    url = "/work/"
+    url = "/rutas-bici/"
     weight = 4
 
 [permalinks]
