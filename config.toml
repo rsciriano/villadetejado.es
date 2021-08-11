@@ -1,4 +1,4 @@
-baseURL = "www.example.com"
+baseURL = "/"
 languageCode = "es-es"
 title = "Villa de Tejado"
 themesDir = "themes"
