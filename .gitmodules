@@ -1,0 +1,3 @@
+[submodule "themes/hero-tejado"]
+	path = themes/hero-tejado
+	url = https://github.com/rsciriano/hugo-hero-theme.git

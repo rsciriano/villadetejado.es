@@ -1,0 +1,49 @@
+baseURL = "www.example.com"
+languageCode = "es-es"
+title = "Villa de Tejado"
+themesDir = "themes"
+theme = "hero-tejado"
+
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = "0.55.0"
+    
+[params]
+  google_analytics_id=""
+
+  [params.homepage_meta_tags]
+    meta_description = "Hero is a multipurpose Hugo theme with fullscreen hero images and page sections. It contains content types for a business or portfolio site."
+    meta_og_title = "Villa de Tejado"
+    meta_og_type = "website"
+    meta_og_url = "https://hugo-hero.netlify.app"
+    meta_og_image = "https://raw.githubusercontent.com/JugglerX/hugo-hero-theme/master/images/tn.png"
+    meta_og_description = "Hero is a multipurpose Hugo theme with fullscreen hero images and page sections. It contains content types for a business or portfolio site."
+    meta_twitter_card = "summary"
+    meta_twitter_site = "@zerostaticio"
+    meta_twitter_creator = "@zerostaticio"
+
+
+[[menu.main]]
+    name = "Situación geográfica"
+    url = "/situacion-geografica/"
+    weight = 1
+
+[[menu.main]]
+    name = "Historia"
+    url = "/historia/"
+    weight = 2
+
+[[menu.main]]
+    name = "Lugares de interés"
+    url = "/lugares-de-interes/"
+    weight = 3
+
+[[menu.main]]
+    name = "Rutas en bici"
+    url = "/work/"
+    weight = 4
+
+[permalinks]
+  post = "/:year/:month/:day/:slug/"
+  pages = "/:filename/"
